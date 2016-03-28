@@ -64,11 +64,12 @@ export default class App extends React.Component {
 		return (
 			<div>
 				<Row>
-					<Col md={6} xsOffset={3}>
+					<Col md={6} mdOffset={3}>
 
 						<Name name={name} onEdit={this.editName} />
 						<Items items={items} onDelete={this.deleteItem} />
 						<Form addItem={this.addItem}/>
+						
 					</Col>
 				</Row>
 			</div>
