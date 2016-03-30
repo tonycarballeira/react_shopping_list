@@ -11,12 +11,14 @@ import Col from 'react-bootstrap/lib/Col';
 export default class App extends React.Component {
   
 	constructor(props) {
+
 		super(props);
 
 		this.state = {
 			name: '',
 			items: []
 		};
+		
 	}
 
 	componentWillMount() {
